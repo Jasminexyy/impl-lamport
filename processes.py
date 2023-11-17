@@ -166,7 +166,7 @@ def machine(config, portDict):
     global START_TIME 
     START_TIME = time.time()
     while True:
-        for i in range(3):
+        for i in range(roll_10):
             # # Update the logical clock
             # logic_clock += 1
             # # Receive message
